@@ -54,10 +54,6 @@ body {
     flex-direction: row;
     justify-content: center;
 }
-.row2pic1, .row2pic2 {
-    height: 150px;
-    width: 180px;
-}
 .row2col1, .row2col2 {
     display: flex;
     flex-direction: column;
@@ -70,19 +66,19 @@ ul {
 @media all and (min-width: 601px) {
     .article {
         width: 45%;
-        padding: 20 20 10 0
+        padding: 10 20 10 0
     }
     h2 {
         font-size: 16px;
-        }
-        p {
-            font-size: 12px;
-        }
-        li {
-            font-size: 12px;
-        }
-        .row1img {
-            max-height: 350px;
+    }
+    p {
+        font-size: 12px;
+    }
+    li {
+        font-size: 12px;
+    }
+    .row1img {
+        max-height: 350px;
         }
         body {
             padding: 2rem;
@@ -105,6 +101,10 @@ ul {
             display: flex;
             justify-content: space-between;
             margin: 0 120 0 120
+        }
+        .row2pic1, .row2pic2 {
+            height: 150px;
+            width: 180px;
         }
         .row3pic {
             width: 50%;
@@ -139,7 +139,7 @@ ul {
             cursor: pointer;
             font-size: 14px;
             color: white;
-            background-color: #e47c5c;
+            background-color: #F98866;
             border: none;
             bottom: 0;
             border-radius: 2px;

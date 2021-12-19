@@ -2,6 +2,10 @@
     box-sizing: border-box;
     font-family: "arial"
 }
+.article {
+    width: 45%;
+    padding: 2 20 2 0
+}
 body {
     display: flex;
     overflow: auto;
@@ -42,9 +46,10 @@ body {
 }
 .row2Header {
     width: 100%;
+    min-width: 100% !important;
     height: 10%;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 12px;
     font-weight: bold;
     margin: 15 0 0 0;
 }
@@ -63,15 +68,15 @@ body {
     flex-direction: column;
     text-align: center;
 }
+.row3 {
+    display: flex;
+    flex-direction: row;
+}
 ul {
     margin-left: -25px;
 }
 
 @media all and (min-width: 601px) {
-    .article {
-        width: 45%;
-        padding: 20 20 10 0
-    }
     h2 {
         font-size: 16px;
         }
@@ -82,7 +87,7 @@ ul {
             font-size: 12px;
         }
         .row1img {
-            max-height: 350px;
+            max-height: 300px;
         }
         body {
             padding: 2rem;
@@ -139,7 +144,7 @@ ul {
             cursor: pointer;
             font-size: 14px;
             color: white;
-            background-color: #e47c5c;
+            background-color: #F98866;
             border: none;
             bottom: 0;
             border-radius: 2px;
