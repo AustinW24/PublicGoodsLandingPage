@@ -96,12 +96,9 @@ ul {
         .row1img {
             max-height: 300px;
         }
-        body {
-            padding: 2rem;
-        }
         button {
             width: 100%;
-            height: 2rem;
+            height: 10%;
             cursor: pointer;
             font-size: 14px;
             color: white;
@@ -122,13 +119,13 @@ ul {
             width: 50%;
         }
         .row3text {
-            padding: 4rem;
+            padding: 60px;
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
       }
-      @media all and (max-width: 600px) {
+      /* @media all and (max-width: 600px) {
         .article {
             width: 100%;
             padding: 0 8 0 8;
@@ -160,14 +157,18 @@ ul {
             border-radius: 2px;
         }
         .container {
-            height: auto;
+            display: flex;
             width: 100%;
-            margin-bottom: 8vh;
+            margin-bottom: 6vh;
         }
         h2 {
           font-size: 14px;
+
         }
-        p, li {
+        p {
+            font-size: 12px;
+        }
+        li {
             font-size: 12px;
         }
         .row1 {
@@ -177,16 +178,13 @@ ul {
         .row1img {
             width: 100%;
         }
-        .row2 {
-            margin-top: -20px;
-        }
-        .row2columns {
-            max-height: 3rem;
-        }
         .row2col2 {
             visibility: hidden;
             width: 0%;
             height: 0%;
+        }
+        .row2 {
+            margin-top: -20px;
         }
         .row2pic1 {
             width: 100%;
@@ -201,4 +199,4 @@ ul {
             padding: 20px;
         }
 
-      }
+      } */

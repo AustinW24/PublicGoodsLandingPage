@@ -12,6 +12,7 @@
 body {
     display: flex;
     overflow: auto;
+    margin: 0 auto;
 }
 .container {
     height: 100vh;
@@ -95,9 +96,6 @@ ul {
         }
         .row1img {
             max-height: 300px;
-        }
-        body {
-            padding: 2rem;
         }
         button {
             width: 100%;
